@@ -1,20 +1,22 @@
 FROM python:3-alpine
 MAINTAINER Laurent Corbes <caf@glot.net>
 
-ENV GANDICLIVER 0.16
-
-# Upgrade pip from base image
-RUN pip install --upgrade pip
-
+ENV GANDICLIVER latest
 
 # install base tools
 RUN apk --no-cache add \
-      bash
+      bash \
+      git \
+      gcc libc-dev \
+      yaml-dev
+
 
 # install gandi cli
-RUN pip install gandi.cli==$GANDICLIVER \
-# install older version of click because >6 does not work on stable release
-  && pip install --force-reinstall click==5.1
+RUN BUILD=`mktemp -d` \
+  && git clone --depth 1 https://github.com/Gandi/gandi.cli.git $BUILD \
+  && cd $BUILD \
+  && python setup.py install \
+  && rm -rf $BUILD
 
 WORKDIR /root/
 ADD bashrc /root/.bashrc
