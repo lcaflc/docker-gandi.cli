@@ -13,7 +13,7 @@ RUN apk --no-cache add \
 
 # install gandi cli
 RUN pip install gandi.cli==$GANDICLIVER \
-# first install older version of click because >6 does not work on stable release
+# install older version of click because >6 does not work on stable release
   && pip install --force-reinstall click==5.1
 
 WORKDIR /root/
