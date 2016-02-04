@@ -10,6 +10,19 @@ Gandi.cli is the command line tool used to manage from your shell you gandi acco
 
 Official website: [http://cli.gandi.net/]().
 
+Features
+--------
+
+This image provide stable releases of the Gandi.cli as well as git master branch on official repo [https://github.com/Gandi/gandi.cli](). See the build logs for latest updates and more containers informations.
+
+Below are the mappings:
+
+| GitHub Branch | Docker Tag | Gandi.cli version | Dockerfile |
+| ------------- | ---------- | ----------------- | ---------- |
+| master        | latest     | git master branch | [master/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/master/Dockerfile) |
+| 0.16          | 0.16       | stable 0.16       | [0.16/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.16/Dockerfile) |
+
+
 Usage
 -----
 
