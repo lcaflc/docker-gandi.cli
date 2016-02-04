@@ -5,7 +5,6 @@ ENV GANDICLIVER latest
 
 # install base tools
 RUN apk --no-cache add \
-      bash \
       git \
       gcc libc-dev \
       yaml-dev
@@ -19,9 +18,9 @@ RUN BUILD=`mktemp -d` \
   && rm -rf $BUILD
 
 WORKDIR /root/
-ADD bashrc /root/.bashrc
+ADD profile .profile
 
 VOLUME ["/root/.config/gandi"]
 
 #ENTRYPOINT ["/usr/local/bin/gandi"]
-CMD ["/bin/bash"]
+CMD ["/bin/sh", "--login"]
