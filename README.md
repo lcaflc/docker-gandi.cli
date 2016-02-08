@@ -1,7 +1,6 @@
 lcaflc/gandi.cli
 ================
 
-[![](https://badge.imagelayers.io/lcaflc/gandi.cli:latest.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:latest 'Get your own badge on imagelayers.io')
 
 Gandi.cli
 ---------
@@ -9,6 +8,20 @@ Gandi.cli
 Gandi.cli is the command line tool used to manage from your shell you gandi account.
 
 Official website: [http://cli.gandi.net/]().
+
+Features
+--------
+
+This image provide stable releases of the Gandi.cli as well as git master branch on official repo [https://github.com/Gandi/gandi.cli](). See the build logs for latest updates and more containers informations.
+
+Below are the mappings:
+
+| GitHub Branch | Docker Tag | Gandi.cli version | Dockerfile | Imagelayers |
+| ------------- | ---------- | ----------------- | ---------- | ----------- |
+| master        | latest     | git master branch | [master/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/master/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:latest.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:latest 'Get your own badge on imagelayers.io') |
+| 0.17          | 0.17       | stable 0.17       | [0.17/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.17/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.17.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.17 'Get your own badge on imagelayers.io') |
+| 0.16          | 0.16       | stable 0.16       | [0.16/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.16/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.16.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.16 'Get your own badge on imagelayers.io') |
+
 
 Usage
 -----
