@@ -19,6 +19,7 @@ Below are the mappings:
 | GitHub Branch | Docker Tag | Gandi.cli version | Dockerfile | Imagelayers |
 | ------------- | ---------- | ----------------- | ---------- | ----------- |
 | master        | latest     | git master branch | [master/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/master/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:latest.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:latest 'Get your own badge on imagelayers.io') |
+| 0.18          | 0.18       | stable 0.18       | [0.18/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.18/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.18.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.18 'Get your own badge on imagelayers.io') |
 | 0.17          | 0.17       | stable 0.17       | [0.17/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.17/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.17.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.17 'Get your own badge on imagelayers.io') |
 | 0.16          | 0.16       | stable 0.16       | [0.16/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.16/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.16.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.16 'Get your own badge on imagelayers.io') |
 
@@ -30,7 +31,7 @@ The image start a bash inside the container. Once the container fired up you sim
 ```bash
 docker run -it --rm lcaflc/gandi.cli
 Gandi.cli:~# gandi --version
-Gandi CLI 0.16
+Gandi CLI 0.18
 
 Copyright: © 2014-2015 Gandi S.A.S.
 License: GPL-3
