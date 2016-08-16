@@ -15,6 +15,9 @@ RUN apk --no-cache add \
   && rm -rf $BUILD \
   && apk --purge del git gcc libc-dev yaml-dev
 
+# install ssh client binary needed by some commands
+RUN apk --no-cache add openssh-client
+
 WORKDIR /root/
 ADD profile .profile
 
