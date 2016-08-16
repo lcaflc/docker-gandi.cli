@@ -1,7 +1,10 @@
 FROM python:3-alpine
 MAINTAINER Laurent Corbes <caf@glot.net>
 
-ENV GANDICLIVER 0.18
+# install ssh client binary needed by some commands
+RUN apk --no-cache add openssh-client
+
+ENV GANDICLIVER 0.19
 
 # Upgrade pip from base image
 RUN pip install --upgrade pip
