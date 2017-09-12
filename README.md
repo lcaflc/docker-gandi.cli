@@ -16,15 +16,15 @@ This image provide stable releases of the Gandi.cli as well as git master branch
 
 Below are the mappings:
 
-| GitHub Branch | Docker Tag | Gandi.cli version | Dockerfile | Imagelayers |
-| ------------- | ---------- | ----------------- | ---------- | ----------- |
-| master        | latest     | git master branch | [master/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/master/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:latest.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:latest 'Get your own badge on imagelayers.io') |
-| 0.21          | 0.21       | stable 0.21       | [0.21/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.21/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.21.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.21 'Get your own badge on imagelayers.io') |
-| 0.20          | 0.20       | stable 0.20       | [0.20/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.20/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.20.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.20 'Get your own badge on imagelayers.io') |
-| 0.19          | 0.19       | stable 0.19       | [0.19/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.19/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.19.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.19 'Get your own badge on imagelayers.io') |
-| 0.18          | 0.18       | stable 0.18       | [0.18/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.18/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.18.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.18 'Get your own badge on imagelayers.io') |
-| 0.17          | 0.17       | stable 0.17       | [0.17/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.17/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.17.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.17 'Get your own badge on imagelayers.io') |
-| 0.16          | 0.16       | stable 0.16       | [0.16/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.16/Dockerfile) | [![](https://badge.imagelayers.io/lcaflc/gandi.cli:0.16.svg)](https://imagelayers.io/?images=lcaflc/gandi.cli:0.16 'Get your own badge on imagelayers.io') |
+| GitHub Branch | Docker Tag | Gandi.cli version | Dockerfile |
+| ------------- | ---------- | ----------------- | ---------- |
+| master        | latest     | git master branch | [master/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/master/Dockerfile) |
+| 0.21          | 0.21       | stable 0.21       | [0.21/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.21/Dockerfile) |
+| 0.20          | 0.20       | stable 0.20       | [0.20/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.20/Dockerfile) |
+| 0.19          | 0.19       | stable 0.19       | [0.19/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.19/Dockerfile) |
+| 0.18          | 0.18       | stable 0.18       | [0.18/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.18/Dockerfile) |
+| 0.17          | 0.17       | stable 0.17       | [0.17/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.17/Dockerfile) |
+| 0.16          | 0.16       | stable 0.16       | [0.16/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.16/Dockerfile) |
 
 
 Usage
