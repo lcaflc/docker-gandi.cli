@@ -4,7 +4,7 @@ MAINTAINER Laurent Corbes <caf@glot.net>
 # install ssh client binary needed by some commands
 RUN apk --no-cache add openssh-client
 
-ENV GANDICLIVER 0.21
+ENV GANDICLIVER 0.22
 
 # Upgrade pip from base image
 RUN pip install --upgrade pip
