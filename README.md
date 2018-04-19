@@ -7,12 +7,12 @@ Gandi.cli
 
 Gandi.cli is the command line tool used to manage from your shell you gandi account.
 
-Official website: [http://cli.gandi.net/]().
+Official website: [http://cli.gandi.net/](http://cli.gandi.net/).
 
 Features
 --------
 
-This image provide stable releases of the Gandi.cli as well as git master branch on official repo [https://github.com/Gandi/gandi.cli](). See the build logs for latest updates and more containers informations.
+This image provide stable releases of the Gandi.cli as well as git master branch on official repo [https://github.com/Gandi/gandi.cli](https://github.com/Gandi/gandi.cli). See the build logs for latest updates and more containers informations.
 
 Below are the mappings:
 
