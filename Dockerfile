@@ -11,8 +11,8 @@ RUN apk --no-cache add \
   && BUILD=`mktemp -d` \
   && git clone --depth 1 https://github.com/Gandi/gandi.cli.git $BUILD \
   && cd $BUILD \
-  && mkdir -p /tmp/local/lib/python3.6/site-packages/ \
-  && export PYTHONPATH=/tmp/local/lib/python3.6/site-packages/ \
+  && mkdir -p /tmp/local/lib/python3.7/site-packages/ \
+  && export PYTHONPATH=/tmp/local/lib/python3.7/site-packages/ \
   && python setup.py install --prefix /tmp/local
 
 
