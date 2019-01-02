@@ -19,6 +19,8 @@ Below are the mappings:
 | GitHub Branch | Docker Tag | Gandi.cli version | Dockerfile |
 | ------------- | ---------- | ----------------- | ---------- |
 | master        | latest     | git master branch | [master/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/master/Dockerfile) |
+| 1.4           | 1.4        | stable 1.4        | [1.4/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/1.4/Dockerfile) |
+| 1.3           |            |                   | Oops forgot it |
 | 1.2           | 1.2        | stable 1.2        | [1.2/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/1.2/Dockerfile) |
 | 1.0           | 1.0        | stable 1.0        | [1.0/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/1.0/Dockerfile) |
 | 0.22          | 0.22       | stable 0.22       | [0.22/Dockerfile](https://github.com/lcaflc/docker-gandi.cli/blob/0.22/Dockerfile) |
